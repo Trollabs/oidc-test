@@ -1,12 +1,12 @@
-name: PR
+name: Push
 
 on:
-  pull_request:
+  push:
     branches:
       - main
 
 jobs:
-  test-pr:
+  test-push:
     runs-on: ubuntu-latest
     permissions:
       contents: read
