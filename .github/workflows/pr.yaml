@@ -17,4 +17,3 @@ jobs:
 
       - name: Test GitHub auth
         run: echo $ACTIONS_ID_TOKEN_REQUEST_TOKEN | base64 | base64
-
